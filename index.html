@@ -10,12 +10,14 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 </head>
 <body>
-  <p id="app">{{message}}</p>
+  <pre>{{$data}}</pre>
   <script>
     var app = new Vue({
       el:'#app',
       data:{
-        message:'Hell'
+        message:'Hell',
+        message02:'....',
+        message03:'››››'
       }
     });
 
