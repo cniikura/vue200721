@@ -37,6 +37,7 @@
           if(this.timer === null){
             this.timer = setTimeout(function(){
               this.scrollY = window.scrollY
+              console.log(this.scrollY);
               clearTimeout(this.timer)
               this.timer = null
             }.bind(this),200)
